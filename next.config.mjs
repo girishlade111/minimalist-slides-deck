@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/minimalist-slides-deck",
   eslint: {
     ignoreDuringBuilds: true,
   },
